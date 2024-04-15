@@ -28,10 +28,10 @@ url = auth.GetAuthUrl()
 async def cncl(c: UtubeBot, q: CallbackQuery) -> None:
     _, pid = q.data.split("+")
     if not c.download_controller.get(pid, False):
-        await q.answer("Your process is not currently active!", show_alert=True)
+        await q.answer("Your process is not currently active! 🥱", show_alert=True)
         return
     c.download_controller[pid] = False
-    await q.answer("Your process will be cancelled soon!", show_alert=True)
+    await q.answer("Your process will be cancelled soon! 😔", show_alert=True)
 
 
 @UtubeBot.on_callback_query(
@@ -58,7 +58,7 @@ async def _logout(c: UtubeBot, q: CallbackQuery) -> None:
                             text="Visit Website!💫", url="https://lethargic-sol.netlify.app"
                         ),
                         InlineKeyboardButton(
-                            text="Help and Support😌", url="https://t.me/LethargicBots"
+                            text="Help and Support😌", url="https://t.me/thunder_developer"
                         ),
                     ],
                     [
