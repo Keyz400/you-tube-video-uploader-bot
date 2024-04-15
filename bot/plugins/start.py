@@ -36,12 +36,12 @@ async def _start(c: UtubeBot, m: Message):
                         text="Visit Website!💫", url="https://lethargic-sol.netlify.app"
                     ),
                     InlineKeyboardButton(
-                        text="Help and Support😌", url="https://t.me/LethargicBots"
+                        text="Help and Support😌", url="https://t.me/thunder_developer"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌟GITHUB🌟", url="https://github.com/odysseusmax/"
+                        "⚡Thunder Dev⚡", url="https://t.me/thunder_developer"
                     )
                 ],
             ]
