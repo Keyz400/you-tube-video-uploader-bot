@@ -92,7 +92,7 @@ class Uploader:
             self.status = True
             self.message = (
                 f"Title: {title}\n Link: https://youtu.be/{video_id}"
-                f"\n\nCategory ID: {categoryName} | Category Code: {categoryId}\n**[Join Me](https://t.me/LethargicBots) | [@Ankit Kumar](https://github.com/alpha-alexxx)**"
+                f"\n\nCategory ID: {categoryName} | Category Code: {categoryId}\n**[Join Me](https://t.me/thunder_developer) | [@Black](https://t.me/thunder_developer)**"
                 f"\n **Original Creator➤ [@Christy Roys](https://github.com/odysseusmax)**"
             )
             os.remove(self.file)
