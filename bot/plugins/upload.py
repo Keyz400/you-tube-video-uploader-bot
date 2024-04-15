@@ -173,8 +173,8 @@ async def progress(
         if (int(time.time()) % 5 == 0) or (cur == tot):
             await asyncio.sleep(1)
             progress_percentage = (cur / tot) * 100
-            uploaded_bar = "🟢 " * int(progress_percentage / 10)
-            not_uploaded_bar = "⚪ " * int((100 - progress_percentage) / 10)
+            uploaded_bar = "🥝 " * int(progress_percentage / 10)
+            not_uploaded_bar = "🍉 " * int((100 - progress_percentage) / 10)
             speed, unit = human_bytes(cur / diff, True)
             curr = human_bytes(cur)
             tott = human_bytes(tot)
