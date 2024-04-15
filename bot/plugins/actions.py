@@ -159,7 +159,7 @@ async def _logout(c: UtubeBot, m: Message):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Help and Support😌", url="https://t.me/LethargicBots"
+                            text="Help and Support😌", url="https://t.me/thunder_developer"
                         ),
                     ],
                     [
@@ -186,7 +186,7 @@ async def _logout(c: UtubeBot, m: Message):
                                        )
                                    ], [
                                        InlineKeyboardButton(
-                                           text="Help and Support😌", url="https://t.me/LethargicBots"
+                                           text="Help and Support😌", url="https://t.me/thunder_developer"
                                        ),
                                    ],
                                    [
