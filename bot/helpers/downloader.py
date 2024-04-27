@@ -1,12 +1,9 @@
 import time
 import logging
 from typing import Optional, Tuple, Union
-
 from pyrogram.types import Message
 
-
 log = logging.getLogger(__name__)
-
 
 class Downloader:
     def __init__(self, m: Message):
